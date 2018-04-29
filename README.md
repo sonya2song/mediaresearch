@@ -1,1 +1,3 @@
-# mediaresearch
+# media research
+
+## Observations
