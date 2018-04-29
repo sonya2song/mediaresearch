@@ -1,4 +1,4 @@
-setwd('~/Google Drive/chartbeat_mine/jobs')
+setwd('~/src/sandbox/mediaresearch')
 library('dplyr')
 library('reshape2')
 library('ggplot2')
@@ -6,7 +6,7 @@ library('parallel')
 library('multidplyr')
 library('MASS')
 # save.image('data.RData')
-load('data.RData')
+# load('data.RData')
 
 ####### import data and remove missing values ##############
 data = read.csv('analyst_hw.tsv', header=T, as.is=T, sep='\t')
