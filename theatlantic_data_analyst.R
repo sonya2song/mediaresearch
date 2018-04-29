@@ -387,18 +387,3 @@ ggplot(hourly_pvs %>% filter(section != '/' & section %in% top_sections[1:9] & p
   ggtitle('Age vs. section vs. hourly pageviews')
 ggsave('./images/cmp_pvs_section_age.png', width=16, height=9)
 
-### What time of day do articles tend to be published? ####
-# How many different days in a month do out visitors view Atlantic content?
-# Do certain sections of the site tend to be visited more at certain times?
-# Visualising trends and fitting predictive models (and analyzing model accuracy) 
-
-### pvs = age + section + visit_weekday + visit_hour ####
-### how old are the stories being consumed ####
-
-
-
-# the dataset appears like a sample of the traffic in March rather than a population, because neither weekly nor hourly fluctuation is pronounced. 
-# some hours are missing
-# if the sample is representative 
-# but if the data are sampled using url_id and for each url_id the visit data are complete, we can analyze pageviews as an outcome. 
-# 40% of the stories are a week old or younger, while 50% are 1~3 weeks old, suggesting a strong presence of evergreen content. 
